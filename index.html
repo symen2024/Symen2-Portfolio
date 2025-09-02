@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>My Portfolio</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h1>My Portfolio</h1>
+    <nav>
+      <a href="#about">About</a>
+      <a href="#projects">Projects</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <!-- 🎵 Background Music -->
+  <audio id="bg-music" autoplay loop controls style="display:block; margin:20px auto;">
+    <source src="song.mp3" type="audio/mpeg">
+    Your browser does not support the audio element.
+  </audio>
+
+  <!-- About Section -->
+  <section id="about" class="center">
+    <img src="https://i.ibb.co/fzrZDWCC/profile.jpg" alt="Profile Picture" class="profile-pic">
+    <h2>Hello, I'm Your Name</h2>
+    <p>A passionate web developer who loves building modern and responsive websites.</p>
+  </section>
+
+  <!-- Projects Section -->
+  <section id="projects">
+    <h2 class="section-title">My Projects</h2>
+    
+    <div class="project">
+      <h3>Project One</h3>
+      <p>Description of your first project. Built with HTML, CSS, JS.</p>
+    </div>
+    
+    <div class="project">
+      <h3>Project Two</h3>
+      <p>Description of your second project. Built with React, Node.js.</p>
+    </div>
+    
+    <div class="project">
+      <h3>Project Three</h3>
+      <p>Description of your third project. Built with Python, Flask.</p>
+    </div>
+    
+    <div class="project">
+      <h3>
+        <a href="https://docs.google.com/presentation/d/1dlczokcJhYWsI9zANGqlIhpvj7jN3Z9tGlkt0Tv9vXo/edit?usp=drivesdk" target="_blank" class="btn">
+          Presentation Portfolio
+        </a>
+      </h3>
+      <p>My portfolio presentation created in Google Slides.</p>
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section id="contact" class="center">
+    <h2>Contact Me</h2>
+    <p>Email: <a href="mailto:youremail@example.com">youremail@example.com</a></p>
+    <button onclick="sayHello()" class="btn">Say Hello 👋</button>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <p>&copy; 2025 Your Name. All Rights Reserved.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
